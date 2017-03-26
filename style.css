@@ -1,0 +1,122 @@
+body, div, a {
+    padding:0;
+    margin:0;
+    font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+
+#calculator {
+	background-color: #fff;
+	width: 310px;
+	height: 480px;
+	border: 5px #E5E5E5 solid;
+	margin: 10px auto;
+	padding: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	-khtml-border-radius: 10px;
+	border-radius: 10px;
+}
+
+
+#calculator a {
+	  display: block;
+    float: left;
+    cursor: pointer;
+    text-decoration: none;
+    text-align: center;
+    background: -moz-linear-gradient(top, #EDEDED, #DCDCDC);
+    background: -webkit-gradient(linear, left top, left bottom, from(#EDEDED), to(#DCDCDC));
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#EDEDED', endColorstr='#DCDCDC');
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	-khtml-border-radius: 10px;
+    border-radius: 10px;
+    color: black;
+}
+
+#numbers, #operators {
+	margin: auto;	
+}
+
+#clears {
+/*   display: inline-block; */
+  
+}
+#clears a {
+  width: 100px;
+	height: 50px;
+	font-size: 35px;
+	padding: 2px;
+	margin: 5px 6px;
+  padding: 2px;
+	margin: 5px 6px;
+}
+
+#operators {
+/*   padding-top: 5px; */
+/*   margin-top: px;   */
+}  
+
+#operators a {
+	width: 46px;
+	height: 45px;
+	font-size: 39px;
+	padding: 1px;
+	margin: 10px;
+}
+
+
+#operators a#equals {
+/* 	padding: 10px; */
+  line-height: 80px;
+	height: 80px;
+}
+
+#numbers {
+ position: relative; 
+}
+
+#numbers a {
+	width: 45px;
+	height: 45px;
+	font-size: 32px;
+	padding: 10px;
+	margin: 8px;
+}
+
+#numbers #zero {
+  height: 45px;
+  width: 126px;
+}
+
+#total {
+    height: 70px;
+    width: 300px;
+    margin:auto;
+    background-color: #DCE6F2;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    text-align: right;
+    font-size: 60px;
+    padding: 2px 5px;
+    border-radius: 8px;
+}
+
+#side {
+	width: 49px;
+	float: right;
+}
+
+#side a {
+	width: 40px;
+	height: 40px;
+	float: right;
+	font-size: 32px;
+	padding: 10px;
+	margin: 5px;
+}
+
+footer div{
+  text-align: center;
+  margin: 50px auto; 
+}
